@@ -1,0 +1,33 @@
+.main-container{
+    display: flex;
+    gap: 15px;
+    color: green;
+    
+    }
+    .container{
+        border: 1px solid black;
+        width: 280px;
+    
+       padding-left: 15px;
+       
+    
+       
+    }
+    .Explor{
+        color: rgb(30, 39, 161);
+        
+       
+    }
+    .Explor:hover {
+        color:red;
+        cursor: pointer;
+    
+      }
+    
+       .container1{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       flex-wrap: wrap;
+       gap: 5px;
+      }
+    
